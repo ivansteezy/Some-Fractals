@@ -1,6 +1,3 @@
 ﻿  Bitmap.cpp
 c:\users\ivan\source\repos\some-fractals\mandelbrot\mandelbrot\bitmap.cpp(2): warning C4103: se ha cambiado la alineación después de incluir el encabezado; puede ser que falte #pragma pack(pop)
-  Mandelbrot.cpp
-c:\users\ivan\source\repos\some-fractals\mandelbrot\mandelbrot\mandelbrot.cpp(2): warning C4103: se ha cambiado la alineación después de incluir el encabezado; puede ser que falte #pragma pack(pop)
-  Generando código...
   Mandelbrot.vcxproj -> C:\Users\Ivan\source\repos\Some-Fractals\Mandelbrot\Debug\Mandelbrot.exe
