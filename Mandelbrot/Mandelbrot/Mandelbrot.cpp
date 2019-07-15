@@ -1,25 +1,34 @@
-#include <iostream>
-#include "BitMapFileHeader.h"
-#include "BitMapInfoHeader.h"
-#include "Bitmap.h"
+#include <complex>
+#include "Mandelbrot.h"
 
-using namespace fractal;
 
-int main()
+namespace fractal 
 {
-	const int WIDTH = 800;
-	const int HEIGHT = 600;
-	Bitmap bitmap(WIDTH, HEIGHT);
-	
-	for (int y = 0; y < HEIGHT; ++y)
+	Mandelbrot::Mandelbrot()
 	{
-		for (int x = 0; x < WIDTH; ++x)
-		{
-			bitmap.setPixel(x, y, 255, 0, 0);
-		}
 	}
 
-	bitmap.write("test.bmp");
-	std::cout << "Termino." << std::endl;
-	return 0;
+
+	Mandelbrot::~Mandelbrot()
+	{
+	}
+
+	int Mandelbrot::getIterations(double x, double y)
+	{
+		std::complex<double> z = 0;
+		std::complex<double> c(x, y);
+
+		int iterations = 0;
+
+		while (iterations < MAX_ITERATIONS)
+		{
+			z = z * z + c;
+			if (std::norm(z) > 2)
+			{
+				break;
+			}
+			iterations++;
+		}
+		return iterations;
+	}
 }
