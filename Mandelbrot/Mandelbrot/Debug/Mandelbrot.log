@@ -1,2 +1,3 @@
-﻿  Mandelbrot.cpp
-  Mandelbrot.vcxproj -> C:\Users\Ivan\source\repos\Some-Fractals\Mandelbrot\Debug\Mandelbrot.exe
+﻿  main.cpp
+C:\Users\Iván\Documents\Some-Fractals\Mandelbrot\Mandelbrot\main.cpp(4): warning C4103: se ha cambiado la alineación después de incluir el encabezado; puede ser que falte #pragma pack(pop)
+  Mandelbrot.vcxproj -> C:\Users\Iván\Documents\Some-Fractals\Mandelbrot\Debug\Mandelbrot.exe

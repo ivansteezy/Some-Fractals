@@ -22,8 +22,8 @@ namespace fractal
 
 		while (iterations < MAX_ITERATIONS)
 		{
-			z = z * z + c;
-			if (std::norm(z) > 2)
+			z = z*z + c;
+			if (abs(z) > 2)
 			{
 				break;
 			}
