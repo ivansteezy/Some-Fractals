@@ -52,6 +52,19 @@ namespace fractal
 
 	void Bitmap::setPixel(int x, int y, std::uint8_t red, std::uint8_t green, std::uint8_t blue)
 	{
+		std::uint8_t *pPixel = m_pPixel.get();
 
+		pPixel += (y * 3) * m_width + (x * 3);
+
+		pPixel[0] = blue;
+		pPixel[1] = green;
+		pPixel[2] = red;
 	}
 }
+
+
+
+
+
+
+
