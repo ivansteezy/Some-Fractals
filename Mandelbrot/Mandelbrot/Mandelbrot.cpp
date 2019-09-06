@@ -7,6 +7,7 @@ namespace fractal
 	Mandelbrot::Mandelbrot()
 	{
 		//Este es un constructor de la rama develop
+		//Chupas
 	}
 
 
