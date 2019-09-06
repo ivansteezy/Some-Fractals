@@ -1,5 +1,6 @@
 #include <complex>
 #include "Mandelbrot.h"
+#include <iostream>
 
 
 namespace fractal 
@@ -7,9 +8,12 @@ namespace fractal
 	Mandelbrot::Mandelbrot()
 	{
 		//Este es un constructor de la rama develop
-		//Chupas
+		//Perdon
 	}
 
+	void Hello(){
+		std::cout << "Hello";
+	}
 
 	Mandelbrot::~Mandelbrot()
 	{
