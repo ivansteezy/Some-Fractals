@@ -11,8 +11,9 @@ namespace fractal
 		//Perdon
 	}
 
-	void Hello(){
-		std::cout << "Hello";
+	void Hello()
+	{
+		std::cout << "Good bye! :D" << std::endl;
 	}
 
 	Mandelbrot::~Mandelbrot()
